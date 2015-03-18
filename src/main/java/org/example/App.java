@@ -10,6 +10,9 @@ public class App
 	
     public static void main( String[] args )
     {
-		System.out.println(new MinTwoAvgSlice().solution(new int[] {9, 9, 9, 1, 3, 1, 9}));
+		int[] A = new int[] {8,3,4,};
+		new HeapSort().sort(A);
+		for(int i=0; i<A.length; i++) 
+			System.out.println(A[i]);
     }
 }
