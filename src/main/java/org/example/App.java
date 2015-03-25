@@ -7,12 +7,9 @@ import java.util.Stack;
  */
 public class App 
 {
-	
     public static void main( String[] args )
     {
-		int[] A = new int[] {-3,-9,-5,-1,-2};
-		new QuickSort().sort(A);
-		for(int i=0; i<A.length; i++) 
-			System.out.println(A[i]);
+		NumberOfDiskIntersection nodi = new NumberOfDiskIntersection();
+		nodi.solution(new int[] {10,2,6,7,3,2,0});
     }
 }
